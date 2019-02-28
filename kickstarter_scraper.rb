@@ -1,6 +1,7 @@
 # require libraries/modules here
 require 'nokogiri'
 require 'pry'
+require_relative '../fixtures/kickstarter'
 
 doc = Nokogiri::HTML(html)
 binding.pry
