@@ -2,5 +2,5 @@
 require 'nokogiri'
 
 def create_project_hash
-  projects = {project: {}}
+  projects = {projects: {}}
 end
