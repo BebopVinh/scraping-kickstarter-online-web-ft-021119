@@ -1,9 +1,8 @@
 # require libraries/modules here
 require 'nokogiri'
 require 'pry'
-require_relative '../fixtures'
 
-doc = Nokogiri::HTML(html)
+doc = Nokogiri::HTML('../fixtures/kickstarter')
 binding.pry
 
 def create_project_hash
